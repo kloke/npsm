@@ -10,4 +10,4 @@ License: GPL (>= 2)
 LazyLoad: yes
 LazyData: yes
 Depends: Rfit
-Suggests: boot, HSAUR2, truncnorm, NSM3, mvctm, chipPCR, robustbase, plyr, devtools, survival
+Suggests: boot, survival, sm, HSAUR2, devtools
