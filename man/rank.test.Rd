@@ -36,7 +36,7 @@ Confidence interval, if requested, is based on call to Rfit.
 \references{
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 }
-\author{John Kloke \email{kloke@biostat.wisc.edu}}
+\author{John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
 
 \seealso{
 \code{\link{wilcox.test}}
