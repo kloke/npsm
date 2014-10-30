@@ -4,6 +4,8 @@ vanElteren.test<-function(g,y,b) {
 # y is response vector
 # b is strata/block 
 
+if( sum(is.element(g,0:1)) != length(g) ) stop('currently only accepts 0/1 for group')
+
 d<-cbind.data.frame(y,g,b)
 
 res<-ddply(d,.(b),summarize,

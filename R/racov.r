@@ -1,5 +1,5 @@
 
-onecovahomog = function(levs,data,xcov,print.table=T) {
+onecovahomog = function(levs,data,xcov,print.table=TRUE) {
 #
 #   Input:
 #     levs = vector of levels corresponding to the factors A, B, C, etc.
@@ -65,7 +65,7 @@ list(tab=tab2,fit=fitF)
 #         list(tab2=tab2)
 }
 
-onecovaheter = function(levs,data,xcov,print.table=T) {
+onecovaheter = function(levs,data,xcov,print.table=TRUE) {
 #
 #   Input:
 #     levs = vector of levels corresponding to the factors A, B, C, etc.
@@ -181,7 +181,7 @@ getxact2 = function(amat,bmat){
       colnames(cmat) = nm
       cmat
 }
-kancova = function(levs,data,xcov,print.table=T) {
+kancova = function(levs,data,xcov,print.table=TRUE) {
 #
 #   Input:
 #     levs = vector of levels corresponding to the factors A, B, C, etc.
@@ -292,7 +292,7 @@ kancovarown = function(vec){
     nm
 }
 
-onecova = function(levs,data,xcov,print.table=T) {
+onecova = function(levs,data,xcov,print.table=TRUE) {
 #
 #   Input:
 #     levs = vector of levels corresponding to the factors A, B, C, etc.
