@@ -1,13 +1,13 @@
-\name{onecovahomog}
-\alias{onecovahomog}
+\name{onecova}
+\alias{onecova}
 \title{ Robust Analysis of Covariance under Heterogeneous Slopes}
 \description{
-Returns a robust rank-based analysis of covariance for a one-way layout assuming
-homogeneous slopes; see Section 5.4 of Kloke and McKean (2014).
+Returns tests for homogeneous slopes and also assuming homogeneous slopes a test for
+differences in level.
 Currently only wilcoxon scores are used.
 }
 \usage{
-onecovahomog(levs,data,xcov,print.table=TRUE)
+onecova(levs,data,xcov,print.table=TRUE)
 }
 \arguments{
   \item{levs}{Number of levels of the one-way design}
@@ -16,19 +16,16 @@ onecovahomog(levs,data,xcov,print.table=TRUE)
    \item{print.table}{logical indicating a table should be printed}
 }
 \details{
-Returns the analysis of covariance table assuming homogeneous slopes.
+Returns the analysis of covariance table.
 }
 \value{
   \item{tab}{analysis of covariance }
-  \item{fit}{rank-based ful model (homogeneous slopes}
 }
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
-
 }
 \examples{
 data=latour[,c('quality','rain')]
 xcov<-cbind(latour['end.of.harvest'])
-onecovahomog(2,data,xcov,print.table=TRUE)
-
+onecova(2,data,xcov,print.table=TRUE)
 }

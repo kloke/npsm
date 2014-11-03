@@ -39,8 +39,3 @@ Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using 
 
 }
 \author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
-
-\seealso{
-}
-\examples{
-}
