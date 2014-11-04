@@ -9,5 +9,6 @@ Description: Functions and datasets used in the book Nonparametric Statistical M
 License: GPL (>= 2)
 LazyLoad: yes
 LazyData: yes
-Depends: Rfit, plyr
+Depends: Rfit
+Imports: plyr
 Suggests: boot, survival, sm, HSAUR2, devtools
