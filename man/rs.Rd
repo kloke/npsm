@@ -2,30 +2,24 @@
 \alias{rs}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Simulated Regression Model
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+A simulated regression model with one response and one predictor.
+It is discussed in Exercise 6.5.6 of Kloke and McKean (2014).
 }
-\usage{data("rs")}
+\usage{data(rs)}
 \format{
-  A data frame with 50 observations on the following 2 variables.
+  Fifty observations on two variables.
   \describe{
-    \item{\code{x}}{a numeric vector}
-    \item{\code{y}}{a numeric vector}
+    \item{\code{y}}{simulated response}
+    \item{\code{x}}{simulated predictor}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
-data(rs)
-## maybe str(rs) ; plot(rs) ...
+rfit(y ~ x,data=rs)
 }
 \keyword{datasets}

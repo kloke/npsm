@@ -2,30 +2,27 @@
 \alias{cloud}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Cloud Dewpoint
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+A regression example with response cloud point of a liquid and predictor the percent of
+Iodine 8 added to the liquid; see Chapter 3 of Hettmansperger and McKean (2011) or
+Exercise 4.9.10 of Kloke and McKean (2014).
 }
-\usage{data("cloud")}
+\usage{data(cloud)}
 \format{
-  A data frame with 19 observations on the following 2 variables.
+  Nineteen observations on two variables.
   \describe{
-    \item{\code{I8}}{a numeric vector}
-    \item{\code{cloud.point}}{a numeric vector}
+    \item{\code{cloud.point}}{Cloud point of the liquid}
+    \item{\code{I8}}{Percent Iodine 8 added}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
+
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
-data(cloud)
-## maybe str(cloud) ; plot(cloud) ...
+rfit(cloud.point ~ I8,data=cloud)
 }
 \keyword{datasets}

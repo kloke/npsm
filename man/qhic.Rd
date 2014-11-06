@@ -1,26 +1,26 @@
 \name{qhic}
 \alias{qhic}
 \docType{data}
-\title{
-}
+\title{qhic}
 \description{
+A regression example with response yearly upkeep of a home and the predictor value of home; see Bowerman et al.  (2005) and Exercise 4.9.8 of  Kloke and McKean (2014).
 }
-\usage{data("qhic")}
+\usage{data(qhic)}
 \format{
-  A data frame with 40 observations on the following 2 variables.
+  Forty observations on two variables.
   \describe{
-    \item{\code{x}}{x is value (in $1000) of a home}
-    \item{\code{y}}{y is annual upkeep expenditure (in $10)}
+    \item{\code{upkeep}}{annual upkeep expenditure of home (y)}
+    \item{\code{value}}{value of the home (x)}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-Bowerman, BL,  O'Connell, RT, Koehler, AB (2005) \emph{Forecasting, time series, and regression:An applied approach}, Austalia: Thomson.
+\references{
+Bowerman, B.L., O'Connell, R.T., and Koehler, A.B. (2005), \emph{Forecasting, time series, and regression: An applied approach},
+Australia: Thomson.
+
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
-data(qhic)
-plot(y~x,data=qhic,xlab='Value (in $1000s)',ylab='Annual upkeep (in $10s)')
+plot(upkeep~value,data=qhic,xlab='Value (in $1000s)',ylab='Annual upkeep (in $10s)')
 }
+
 \keyword{datasets}

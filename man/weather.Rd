@@ -1,41 +1,34 @@
 \name{weather}
 \alias{weather}
 \docType{data}
-\title{
-%%   ~~ data name/kind ... ~~
-}
+\title{ January Weather Data for Kalamazoo}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+January weather data for Kalamazoo, MI  for the years 1900 to 1995.
+It is discussed in Example 4.7.4, page 106, of Kloke and McKean (2014).
 }
-\usage{data("weather")}
+\usage{data(weather)}
 \format{
-  A data frame with 96 observations on the following 12 variables.
+  Ninety-six observations (1900-1995) for twelve weather variables.
   \describe{
-    \item{\code{year}}{a numeric vector}
-    \item{\code{avemax}}{a numeric vector}
-    \item{\code{avemin}}{a numeric vector}
-    \item{\code{coldestmax}}{a numeric vector}
-    \item{\code{hihest}}{a numeric vector}
-    \item{\code{lowest}}{a numeric vector}
-    \item{\code{maxdayprec}}{a numeric vector}
-    \item{\code{maxdaysnowfall}}{a numeric vector}
-    \item{\code{meantmp}}{a numeric vector}
-    \item{\code{totalprec}}{a numeric vector}
-    \item{\code{totalsnow}}{a numeric vector}
-    \item{\code{warmest}}{a numeric vector}
+    \item{\code{avemax}}{avemax}
+    \item{\code{avemin}}{avemin}
+    \item{\code{coldestmax}}{coldestmax}
+    \item{\code{hihest}}{hihest}
+    \item{\code{lowest}}{lowest}
+    \item{\code{maxdayprec}}{maxdayprec}
+    \item{\code{maxdaysnowfall}}{maxdaysnowfall}
+    \item{\code{meantmp}}{meantmp}
+    \item{\code{totalprec}}{totalprec}
+    \item{\code{totalsnow}}{totalsnow}
+    \item{\code{warmest}}{warmest}
+    \item{\code{year}}{year}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
+\source{http://weather-warehouse.com/WeatherHistory/}
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
-data(weather)
-## maybe str(weather) ; plot(weather) ...
+plot(avemax ~ year,data=weather)
 }
 \keyword{datasets}

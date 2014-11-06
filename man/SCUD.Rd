@@ -2,31 +2,27 @@
 \alias{SCUD}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Cyclone Data
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+A data set discussed in Hollander and Wolfe (1999) and Exercise 5.8.9 of Kloke and McKean (2014).
+It contains part of a study on the effects of cloud seeding of cyclones.
 }
-\usage{data("SCUD")}
+\usage{data(SCUD)}
 \format{
-  A data frame with 21 observations on the following 3 variables.
+  Twenty-one observations on three variables.
   \describe{
-    \item{\code{trt}}{a numeric vector}
-    \item{\code{M}}{a numeric vector}
-    \item{\code{RI}}{a numeric vector}
+    \item{\code{trt}}{treatment indicator (1) is Seeded and (2) is control}
+    \item{\code{M}}{predictor M, the geostrophic meridional circulation index}
+    \item{\code{RI}}{measure of precipitation}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+Hollander, M. and Wolfe, D.A. (1999), \emph{Nonparametric Statistical Methods}, New York: Wiley.
+
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
-data(SCUD)
-## maybe str(SCUD) ; plot(SCUD) ...
+plot(RI ~ M,data=SCUD)
 }
 \keyword{datasets}

@@ -2,30 +2,24 @@
 \alias{poly}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+A Simulated Polynomial Data Set.
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+A simulated polynomial (3rd degree) model discussed in Section 4.7.1 of Kloke and McKean (2014).
 }
-\usage{data("poly")}
+\usage{data(poly)}
 \format{
-  The format is:
- num [1:100, 1:2] -0.609 -2.39 0.521 1.194 -3.851 ...
- - attr(*, "dimnames")=List of 2
-  ..$ : NULL
-  ..$ : chr [1:2] "x" "y"
-}
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+  One-hundred observations on two variables.
+  \describe{
+    \item{\code{y}}{response variable}
+    \item{\code{x}}{predictor}
+  }
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
-data(poly)
-## maybe str(poly) ; plot(poly) ...
+plot(y ~ x,data=poly)
 }
 \keyword{datasets}
