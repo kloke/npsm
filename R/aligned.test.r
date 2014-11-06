@@ -1,4 +1,4 @@
-aligned.test<-function(x,y,g,scores=wscores) {
+aligned.test<-function(x,y,g,scores=Rfit::wscores) {
 
 ############################################################
 #

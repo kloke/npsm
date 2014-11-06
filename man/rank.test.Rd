@@ -10,7 +10,7 @@ Any scores from Rfit can be used as well as user defined.
 Default is to perform a Wilcoxon analysis.
 }
 \usage{
-rank.test(x, y, alternative = "two.sided", scores = wscores, 
+rank.test(x, y, alternative = "two.sided", scores = Rfit::wscores, 
   conf.int = FALSE, conf.level = 0.95)
 }
 \arguments{

@@ -5,7 +5,7 @@ Aligned Rank Test
 }
 \description{Aligned rank test for a group/treatment effect after adjusting for covariates.}
 \usage{
-aligned.test(x, y, g, scores = wscores)
+aligned.test(x, y, g, scores = Rfit::wscores)
 }
 \arguments{
   \item{x}{n by p design matrix} 

@@ -1,4 +1,4 @@
-rank.test<-function(x,y,alternative="two.sided",scores=wscores,conf.int=FALSE,conf.level=0.95) {
+rank.test<-function(x,y,alternative="two.sided",scores=Rfit::wscores,conf.int=FALSE,conf.level=0.95) {
      z = c(x,y)
      n1 = length(x)
      n2 = length(y)
