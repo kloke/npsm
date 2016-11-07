@@ -1,50 +1,44 @@
-polydeg <- function(y,x,P,alpha=.05){
+polydeg <- function(y,x,P,alpha=0.05) {
 
-     xbar <- mean(x)
-     xc <- x - xbar
-     xmat <- cbind(xc)
-     n <- length(y)
 
-     if(P != 1){
-        for(j in 2:P){
-            xmat <- cbind(xmat,xc^j)
-        }
-     }
+  if( P < 1 ) stop("P > 1 is required")
 
-     ic <- 0
-     p <- P
-     coll <- rep(0,3)
+  x <- x - mean(x)
+  xmat <- matrix(nrow=length(y),ncol=P)
 
-     while(ic == 0){
-        xr <- xmat[,1:(p-1)]
-        fitf <- rfit(y~xmat)
-        fitr <- rfit(y~xr)
-        if(p != 1){
-             tst<-drop.test(fitf,fitr)
-        } else {
-             tst<-drop.test(fitf)
-        }
-        pv <- tst$p.value
-        ftst <- tst$F
-        coll <- rbind(coll,c(p,ftst,pv))
-        
-        if(pv <= alpha){
-              ic <- 1
-              deg <- p
-        }
-        if(p == 1){
-              ic <- 1
-              deg <- 0
-        } else {
-              xmat <- xr
-              p <- p - 1
-        }
+  for( i in 1:P ) xmat[,i] <- x^i
+
+
+  result <- matrix(nrow=P,ncol=3)
+
+  deg <- 0
+
+  fitf <- rfit(y ~ xmat)
+
+  for( i in 1:P ) {
+    
+    p <- P - i + 1
+    if (p > 1) {
+      xr <- xmat[, 1:(p-1)]
+      fitr <- rfit(y ~ xr)
+      tst <- drop.test(fitf, fitr)
+    } else {
+      tst <- drop.test(fitf)
     }
-    coll <- coll [-1,]
-    colnames(coll) <- c("Deg","Robust F","p-value")
-    list(coll=coll,deg,fitf=fitf)
-}
-              
 
-     
-         
+    result[i,] <- c(p, tst$F, tst$p.value)
+    if( tst$p.value < alpha) {
+      deg <- p
+      break()
+    }
+
+    fitf <- fitr
+
+  } 
+
+  colnames(result) <- c("Deg", "Robust F", "p-value")
+
+  list(coll=result[1:i,],deg=deg,fitf=fitf)
+
+}
+
