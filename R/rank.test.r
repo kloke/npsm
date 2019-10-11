@@ -7,7 +7,8 @@ rank.test<-function(x,y,alternative="two.sided",scores=Rfit::wscores,conf.int=FA
      rs = rank(z)/(n+1)
      asg = getScores(scores,rs)
      Sphi = sum(asg[(n1+1):n])
-     sigphi = sqrt(((n1*n2)/(n*(n-1)))*sum(asc^2))
+#     sigphi = sqrt((n1/n*n2/(n-1))*sum(asc^2))
+     sigphi = sqrt((n1/n*n2/(n-1))*crossprod(asc))
      zphi = Sphi/sigphi
 	pvalue<-switch(alternative,
 			two.sided = 2*(1 - pnorm(abs(zphi))),
