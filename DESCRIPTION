@@ -1,10 +1,10 @@
 Package: npsm
 Type: Package
 Title: Package for Nonparametric Statistical Methods using R
-Version: 0.5.1
-Date: 2014-11-05
+Version: 0.5.3
+Date: October 2019
 Author: John Kloke, Joseph McKean
-Maintainer: John Kloke <kloke@biostat.wisc.edu>
+Maintainer: John Kloke <johndkloke@gmail.com>
 Description: Functions and datasets used in the book Nonparametric Statistical Methods Using R.
 License: GPL (>= 2)
 LazyLoad: yes

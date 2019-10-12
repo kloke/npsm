@@ -18,7 +18,7 @@ rank.test<-function(x,y,alternative="two.sided",scores=Rfit::wscores,conf.int=FA
      res<-list(Sphi=Sphi,statistic=zphi,p.value=pvalue)
 	if( conf.int ) {
 		w<-c(rep(0,n1),rep(1,n2))
-		fit<-rfit(z~w)
+		fit<-rfit(z~w,scores=scores)
 		estse<-coef(summary(fit))[2,1:2]
 		alpha<-1-conf.level
 
