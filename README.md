@@ -8,7 +8,6 @@ and
 
 ### Installation ###
 * npsm may be installed from
-       ~ * [CRAN](https://cran.r-project.org/) e.g. `install.packages('npsm')` ~
         * [github](https://github.com/) e.g. `install_github('kloke/npsm')`
                 * requires [devtools](https://cran.r-project.org/package=devtools)
 
