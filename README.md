@@ -4,5 +4,5 @@ An R package with functions and datasets used in the book
 by 
 [Kloke](https://github.com/kloke)
 and 
-[McKean](http://www.stat.wmich.edu/mckean/).
+[McKean](http://www.stat.wmich.edu/~mckean/).
 
