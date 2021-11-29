@@ -19,7 +19,7 @@ aligned.test<-function(x,y,g,scores=Rfit::wscores) {
 
 	w<-matrix(model.matrix(~as.factor(g))[,2:k],ncol=(k-1))
 
-	fitr<-rfit(y~x)
+	fitr<-rfit(y~x,scores=scores)
 	A<-qr.qty(fitr$qrx1,w)[(fitr$qrx1$rank+1):N,]
 	apai<-chol2inv(chol(crossprod(A)))
 	S2<-crossprod(w,getScores(scores,resid(fitr)))
