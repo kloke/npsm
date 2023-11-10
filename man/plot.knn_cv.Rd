@@ -20,6 +20,9 @@ additional arguments.  currently not used.
 \details{
 The list x is assumed to have attributes kvec and error representing the number of neighbors and the corresponding misclassification rate, respectively. 
 }
+\value{
+No return value, called for side effects of creating plot.
+}
 \references{
 Hastie, T., Tibshiani, R., and Friedman, J. (2017), The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition, New York: Springer.
 

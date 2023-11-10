@@ -1,4 +1,5 @@
-\name{HoggQs}
+\name{HoggsQs}
+\alias{HoggsQs}
 \alias{Q1}
 \alias{Q2}
 \title{Hogg's Q1 and Q2.}
@@ -18,12 +19,15 @@ For Q2, the numerator is upper 5\% mean minus the lower 5\% mean, while
 the denominator is difference between the upper 50\% mean and the lower 50\% mean.
 These statistics are not robust.
 }
+\value{
+Returns the calculated ratio as a numeric scalar.
+}
 \references{
 Hogg, R. McKean, J, Craig, A (2013) \emph{Introduction to Mathematical Statistics, 7th Ed.} Boston: Pearson.
 }
 \author{John Kloke}
 
 \seealso{
-\code{\link{hogg.test}}, ~~~
+\code{\link{hogg.test}}
 }
 \keyword{nonparametrics}

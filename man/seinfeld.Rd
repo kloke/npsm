@@ -28,25 +28,28 @@ data(seinfeld)
 boxplot(viewers~season,data=seinfeld,ylab='Number of Viewers (in millions)',xlab='Season')
 
 # Normal q-q plots for selected seasons.
-seasons2display <- c(4,5,6,9)
+oldpar_mfrow <- par()$mfrow
 par(mfrow=c(2,2))
+seasons2display <- c(4,5,6,9)
 for( s in seasons2display) {
   v <- seinfeld[seinfeld$season==s,'viewers']
   qqnorm(v,main=paste("Season",s))
   abline(a=median(v),b=mad(v))
 }
+par(mfrow=oldpar_mfrow)
 
-# Use centered and scaled residuals
-seasons2display <- c(4,5,6,9)
+# Normal q-q plots for selected seasons
+# using centered and scaled residuals.
+oldpar_mfrow <- par()$mfrow
 par(mfrow=c(2,2))
+seasons2display <- c(4,5,6,9)
 for( s in seasons2display) {
   v0 <- seinfeld[seinfeld$season==s,'viewers']
   v1 <- (v0 - median(v0))/mad(v0)
   qqnorm(v1,main=paste("Season",s))
   abline(a=0,b=1)
 }
-
-
+par(mfrow=oldpar_mfrow)
 
 }
 \keyword{datasets}

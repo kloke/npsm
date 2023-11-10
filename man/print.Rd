@@ -20,4 +20,5 @@
   \item{estimate}{not currently implemented.}
   \item{stderr}{not currently implemented.}
 }
+\value{No return value, called for side effects}
 \author{John Kloke, Joseph McKean}
