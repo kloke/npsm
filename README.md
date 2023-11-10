@@ -8,12 +8,16 @@ Includes methods, datasets, and random number generation useful for the study of
 
 ### Installation ###
 * npsm may be installed from
+<!--
 	* [CRAN](http://cran.r-project.org/) e.g., `install.packages('npsm')
+-->
 	* [github](https://github.com/) e.g. `install_github('kloke/npsm')`
 		* requires [devtools](https://cran.r-project.org/package=devtools)
 
+<!--
 See also [npsm](https://cran.r-project.org/package=npsm) for the CRAN version.
 The github versions represent developmental versions.
+-->
 
 * If using in conjunction with a read of or course based off of the book mentioned above, then it would be recommended for most to install all dependencies, up to and including, Suggests.
 
