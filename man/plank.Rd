@@ -5,7 +5,7 @@
 \description{Abebe et al. (2001) discuss a dataset resulting from a three-way
 layout for a neurological experiment in which the time
   required for a mouse to exit a narrow elevated wooden plank is
-  measured. The response is the log of time to exit.
+  measured. The response is the log of time (in seconds) to exit.
 Interest lies in assessing the effects of three factors:
 the Mouse Strain
 (Tg+, Tg-),
