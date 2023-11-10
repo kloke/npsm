@@ -3,3 +3,26 @@ exportPattern(".")
 
 # Import all packages listed as Imports or Depends
 import(Rfit,plyr)
+
+S3method(print,knn_cv)
+S3method(plot,knn_cv)
+S3method(print,npsm.ci)
+S3method(print,rank.test)
+S3method(print,hogg.test)
+
+importFrom("stats", "resid", "residuals", "coef",
+"median","wilcox.test",
+     "model.matrix", "rnorm",
+     "pf",  "pt", "pchisq","pnorm","pbinom",
+	"var","dnorm","rbinom","rexp",
+      "qnorm", "qt", "qtukey", "quantile",
+"sd", "vcov","cor")
+
+#importFrom("stats", "fitted.values", "hat", "lsfit", "mad", "median",
+#     "model.frame", "model.matrix", "model.response", "optim",
+#     "pf", "printCoefmat", "pt", "qnorm", "qt", "qtukey",
+#     "residuals", "sd", "vcov")
+
+importFrom("class","knn")
+importFrom("methods","new")
+

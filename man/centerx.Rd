@@ -16,7 +16,7 @@ Returns a centered matrix, i.e., each column of the matrix is replaced by deviat
 \value{
 The centered matrix.
 }
-\author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
+\author{ John Kloke, Joseph McKean}
 
 \seealso{ scale }
 \examples{

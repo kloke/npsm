@@ -1,14 +1,17 @@
 Package: npsm
 Type: Package
 Title: Package for Nonparametric Statistical Methods using R
-Version: 0.5.3
-Date: October 2019
-Author: John Kloke, Joseph McKean
+Version: 1.1.0
+Date: 2023-11-09
+Author: John Kloke[aut,cre], Joseph McKean[aut]
 Maintainer: John Kloke <johndkloke@gmail.com>
 Description: Functions and datasets used in the book Nonparametric Statistical Methods Using R.
 License: GPL (>= 2)
 LazyLoad: yes
 LazyData: yes
-Depends: Rfit
-Imports: plyr
-Suggests: boot, survival, sm, HSAUR2, devtools
+Depends: R (>= 3.5.0), Rfit
+Imports: methods, class, plyr
+Suggests: boot, survival, sm, HSAUR2, devtools, profileR, car, dplyr,
+        tree
+NeedsCompilation: no
+Packaged: 2023-11-10 00:26:23 UTC; john

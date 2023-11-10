@@ -30,7 +30,7 @@ smtp.biostat.wustl.edu/sympa/biostat/arc/s-news/2000-10/msg00126.html
 
 }
 
-\author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
+\author{ John Kloke, Joseph McKean}
 
 \examples{
  r<-rnorm(30)

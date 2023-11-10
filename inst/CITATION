@@ -1,0 +1,17 @@
+citHeader("To cite npsm in publications, please use:")
+
+bibentry(bibtype = "Book",
+  author = c(person(c("John", "D."), "Kloke"), person(c("Joseph", "W."), "McKean")),
+  title = "Nonparametric Statistical Methods Using R",
+  year = "2014",
+  publisher="Chapman-Hall",
+  address="Boca Raton, FL",
+  textVersion = 
+  paste("Kloke, J.D. and McKean, J.W. (2014),",
+        "Nonparametric Statistical Methods Using R", 
+        "Boca Raton, FL: Chapman-Hall."
+       )
+)
+
+
+

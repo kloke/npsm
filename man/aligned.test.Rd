@@ -5,7 +5,7 @@ Aligned Rank Test
 }
 \description{Aligned rank test for a group/treatment effect after adjusting for covariates.}
 \usage{
-aligned.test(x, y, g, scores = Rfit::wscores)
+aligned.test(x, y, g, scores = Rfit::wscores,...)
 }
 \arguments{
   \item{x}{n by p design matrix} 
@@ -15,7 +15,13 @@ aligned.test(x, y, g, scores = Rfit::wscores)
 Which scores should be used for the fit and the test.
 An object of class scores.
 }
+\item{\dots}{optional arguments. passed to rfit.}
+
 }
+\details{
+Data are aligned based on the design matrix x using a rank-based fit via rfit.
+}
+
 \value{
 \item{statistic}{The value of the test statistic.}
 \item{p.value}{The p-value based on a chisq(k-1) distribution where k is the number of groups/treatments. }
@@ -23,7 +29,12 @@ An object of class scores.
 \references{
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 }
-\author{John Kloke \email{kloke@biostat.wisc.edu}}
+\author{John Kloke}
+
+\seealso{
+\code{\link{rfit}}
+}
+
 
 \examples{
 y<-rt(30,2)

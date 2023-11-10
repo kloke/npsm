@@ -17,7 +17,7 @@ Higgins (2004), \emph{Introduction to Modern Nonparametric Statistics},
 Pacific Grove, CA:Brooks/Cole--Thomson Learning
 }
 
-\author{John Kloke \email{kloke@biostat.wisc.edu}}
+\author{John Kloke}
 
 \examples{
 n<-76

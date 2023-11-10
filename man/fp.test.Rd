@@ -32,10 +32,10 @@ Fligner, M.~A. and Policello, G.~E. (1981), Robust rank procedures for the Behre
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 
 Hollander, M. and Wolfe, D.~A. (1999), \emph{Nonparametric statistical methods, 2nd Edition},
-New York: John Wiley \& Sons.
+New York: John Wiley and Sons.
 
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
 
 
 }
-\author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
+\author{ John Kloke, Joseph McKean}

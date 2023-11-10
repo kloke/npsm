@@ -22,7 +22,7 @@ The bootstrap samples are obtained via the function \code{boot}.
 \value{
 A confidence interval.
 }
-\author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
+\author{ John Kloke, Joseph McKean}
 
 \seealso{
 See Also as \code{\link{cor}}

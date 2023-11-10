@@ -29,4 +29,10 @@ Huitema, B.E. (2011), \emph{The analysis of covariance and alternatives, 2nd ed.
 
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
 }
+\examples{
+huitema496 <- data.frame(huitema496)
+fit <- rfit(y~factor(i)+factor(j)+x,data=huitema496)
+summary(fit)
+}
+
 \keyword{datasets}

@@ -30,7 +30,7 @@ Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using 
 
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 }
-\author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
+\author{ John Kloke, Joseph McKean}
 
 \seealso{
 fk.test

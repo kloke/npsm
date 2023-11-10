@@ -21,7 +21,7 @@ These statistics are not robust.
 \references{
 Hogg, R. McKean, J, Craig, A (2013) \emph{Introduction to Mathematical Statistics, 7th Ed.} Boston: Pearson.
 }
-\author{John Kloke <kloke@biostat.wisc.edu> }
+\author{John Kloke}
 
 \seealso{
 \code{\link{hogg.test}}, ~~~

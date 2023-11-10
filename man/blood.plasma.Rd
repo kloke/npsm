@@ -13,6 +13,19 @@ variables (very low-density lipoproteins (VLDL),  low-density lipoproteins (LDL)
 and high-density lipoproteins (HDL)).
 }
 \usage{data(blood.plasma)}
+\format{
+	A data frame with 13 observations on 8 variables.
+	\describe{
+		\item{\code{Total}}{Triglyceride level, response}
+		\item{\code{Sex}}{Sex, 2 levels}
+		\item{\code{Obese}}{Obesity, 2 levels}
+		\item{\code{Chylo}}{Chylomicrons, covariate}
+		\item{\code{VLDL}}{Very low density, lipids, covariate}
+		\item{\code{LDL}}{Low density, lipids, covariate}
+		\item{\code{HDL}}{High density, lipids, covariate}
+		\item{\code{Age}}{Age}
+	}
+}
 \source{
 Hollander, M. and Wolfe, D.A. (1999), \emph{Nonparametric Statistical Methods}, New York: Wiley.
 }

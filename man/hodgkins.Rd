@@ -20,4 +20,5 @@ radiation of affected node (AN) or total nodal radiation (TN).
 \references{
 Hollander, M. and Wolfe, D.A. (1999), \emph{Nonparametric Statistical Methods}, New York: Wiley.
 }
-\keyword{datasets,survival}
+\keyword{datasets}
+\keyword{survival}

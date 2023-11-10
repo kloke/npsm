@@ -26,7 +26,7 @@ Returns the analysis of covariance table assuming heterogenous slopes for a k-wa
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
 }
-\author{ John Kloke \email{kloke@biostat.wisc.edu}, Joseph McKean}
+\author{ John Kloke, Joseph McKean}
 \examples{
  levels <- c(2,2)
  y.group <- huitema496[,c('y','i','j')]

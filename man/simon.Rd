@@ -3,7 +3,7 @@
 \docType{data}
 \title{Simon (the memory game) dataset}
 \description{
-A experiment in which the members of two groups of students each played the game Simon twice.
+An experiment in which the members of two groups of students each played the game Simon twice.
 }
 \usage{data("simon")}
 \format{

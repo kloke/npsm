@@ -22,7 +22,7 @@ hogg.test(x, y, ...)
 \references{
 Hogg, R. McKean, J, Craig, A (2013) \emph{Introduction to Mathematical Statistics, 7th Ed.} Boston: Pearson.
 }
-\author{John Kloke \email{kloke@biostat.wisc.edu}, Patrick Kimes}
+\author{John Kloke, Patrick Kimes}
 \examples{
 hogg.test(rt(20,1),rt(22,1)+0.2)
 }

@@ -17,6 +17,8 @@ Two sample quail data.
 }
 \references{
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
+
+McKean J.W., Vidmar, T.J., and Sievers, G.L. (1989), A robust two stage multiple comparison procedure with application to a random drug screen, \emph{Biometrics}, 45, 1281--1297.
 }
 \examples{
 data(quail2)

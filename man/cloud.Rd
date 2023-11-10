@@ -17,6 +17,9 @@ Exercise 4.9.10 of Kloke and McKean (2014).
     \item{\code{I8}}{Percent Iodine 8 added}
   }
 }
+\source{
+	Draper, N.R. and Smith, H. (1966), \emph{Applied Regression Analysis}, New York: John Wiley and Sons.
+}
 \references{
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 

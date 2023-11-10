@@ -13,6 +13,11 @@ Study the breakdown time of an electrical insulating fluid subject to seven diff
     \item{\code{log.time}}{log of failure time}
   }
 }
+\source{
+	Nelson, W. (1982), \emph{Applied lifetime data analysis}, New York: John Wiley and Sons.
+
+	Lawless, J.F. (1982), \emph{Statistical models and methods for lifetime data}, New York: John Wiley and Sons.
+}
 \references{
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 }
