@@ -2,7 +2,7 @@
 \alias{jonckheere}
 \title{ Jonckheere's Test for Ordered Alternatives}
 \description{
-Computes Jonckheere's Test for Ordered Alternatives; see Section 5.6 of Kloke and McKean (2014).
+Computes Jonckheere's Test for Ordered Alternatives; see Section 5.6 of Kloke and McKean (2014)/Section 5.7 of Kloke and McKean (2024).
 }
 \usage{
 jonckheere(y, groups)
@@ -25,6 +25,7 @@ smtp.biostat.wustl.edu/sympa/biostat/arc/s-news/2000-10/msg00126.html
 }
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 
 smtp.biostat.wustl.edu/sympa/biostat/arc/s-news/2000-10/msg00126.html
 

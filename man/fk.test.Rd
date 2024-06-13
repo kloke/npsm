@@ -9,7 +9,7 @@ fk.test computes the value of the statistic based on squared-normal scores
 following the optimal (for normal errors) such test described in 
 Section 2.10 of Hettmansperger and McKean (2011).
 Hence, it will differ from the core R routine fligner.test;
-see  the discussion in Section 3.3 of  Kloke and McKean (2014).
+see  the discussion in Section 3.3 of  Kloke and McKean (2014)/Section 3.5 of Kloke and McKean (2024).
 }
 \usage{
 fk.test(x,y,alternative = c("two.sided", "less", "greater"),conf.level = 0.95)
@@ -31,6 +31,8 @@ Returns the Fligner-Kileen test for the two-sample scale problem.
 }
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
 }

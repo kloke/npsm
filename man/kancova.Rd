@@ -3,7 +3,7 @@
 \title{ Robust Analysis of Covariance under Heterogeneous Slopes for a k-way layout}
 \description{
 Returns a robust rank-based analysis of covariance for a k-way layout assuming
-heterogenous slopes; see Section 5.4 of Kloke and McKean (2014).
+heterogenous slopes; see Section 5.4 of Kloke and McKean (2014)/Sections 5.6 and 7.3 of Kloke and McKean (2024).
 Currently only wilcoxon scores are used.
 }
 \usage{
@@ -25,6 +25,7 @@ Returns the analysis of covariance table assuming heterogenous slopes for a k-wa
 }
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 }
 \author{ John Kloke, Joseph McKean}
 \examples{

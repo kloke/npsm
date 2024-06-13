@@ -5,7 +5,7 @@
 Energy as a Function of temperature difference.
 }
 \description{
-A regression example with response energy output in watts and the predictor temperature difference in degrees Kevin; see Devore (2012) and Exercise 4.9.11 of  Kloke and McKean (2014).
+A regression example with response energy output in watts and the predictor temperature difference in degrees Kevin; see Devore (2012) and Exercise 4.9.11 of  Kloke and McKean (2014)/Exercise 4.7.8 of Kloke and McKean (2024).
 }
 \usage{data(energy)}
 \format{
@@ -21,6 +21,7 @@ Devore, J. (2012), \emph{Probaility and statistics for engineering and the scien
 
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistical methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
 rfit(output ~ temp.diff,data=energy)

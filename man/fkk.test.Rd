@@ -5,7 +5,7 @@
 Returns the Fligner-Kileen test for homogeneous scales for k-samples.
 Also estimates of ratio of scales based on the logs of folded median-aligned 
 samples and a corresponding confidence interval is computed.  The first level (sample) is referenced.
-See the discussion in Section 5.7 of  Kloke and McKean (2014).
+See the discussion in Section 5.7 of  Kloke and McKean (2014)/Section 5.8 of Kloke and McKean (2024).
 }
 \usage{
 fkk.test(y,ind,conf.level = 0.95)
@@ -26,9 +26,11 @@ Returns the Fligner-Kileen test for the k-sample scale problem.
   \item{cwts}{vector of weights based on the estimates difference in scales}
 }
 \references{
-Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
-
 Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statistical Methods, 2nd ed.}, New York: Chapman-Hall.
+
+Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
+
 }
 \author{ John Kloke, Joseph McKean}
 

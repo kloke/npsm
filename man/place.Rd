@@ -5,7 +5,7 @@
 Returns the placements of the first vector in terms of the second vector used the R function fp.test;
  see Section 2.11
 of Hettmansperger and McKean (2011) and Section 4.4 of Hollander and Wolfe (1999).
-The version computed by fp.test is discussed in Section 4.4 of Kloke and McKean (2014).
+The version computed by fp.test is discussed in Section 3.4 of Kloke and McKean (2014)/Section 3.6 of Kloke and McKean (2024).
 }
 \usage{
 place(x,y)
@@ -28,7 +28,7 @@ Hollander, M. and Wolfe, D.~A. (1999), \emph{Nonparametric statistical methods, 
 New York: John Wiley and Sons.
 
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
-
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 }
 \author{ John Kloke, Joseph McKean}
 

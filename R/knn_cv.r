@@ -28,13 +28,13 @@ knn_cv <- function(xy,k.cv=5,kvec=seq(1,47,by=2)) {
 
 print.knn_cv <- function(x,...) { 
 
-  cat("\n",paste0(x$k.cv,"-fold Cross Validation for kNN"),"\n")
+  cat("\n",paste0(x$k.cv,"-fold Cross-Validation for kNN"),"\n")
   cat(paste0("Best k=", x$k.best, ", CV error rate=", x$error[x$kvec==x$k.best]), "\n")
 
 }
 
 plot.knn_cv <- function(x,...) {
-  with(x,plot(kvec,error,main=paste0(k.cv,"-fold Cross Validation for kNN"),
+  with(x,plot(kvec,error,main=paste0(k.cv,"-fold Cross-Validation for kNN"),
     xlab='Number of Neigbors (k)', ylab='Misclassification Error Rate')
   )
 }

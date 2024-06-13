@@ -17,10 +17,11 @@ An experiment in which the members of two groups of students each played the gam
 \details{
 Demonstrates the concept of regression toward the mean.
 Simulated data to represent a realistic realization of the experiment.
-See problem 4.9.20 of Kloke and McKean (2014)
+See Problem 4.9.20 of Kloke and McKean (2014)/Problem 4.7.17 of Kloke and McKean (2024).
 }
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
 data(simon)

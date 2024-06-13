@@ -6,7 +6,7 @@ Simulated Regression Model
 }
 \description{
 A simulated regression model with one response and one predictor.
-It is discussed in Exercise 6.5.6 of Kloke and McKean (2014).
+It is discussed in Exercise 6.5.6 of Kloke and McKean (2014)/Exercise 8.11.23 of Kloke and McKean (2024).
 }
 \usage{data(rs)}
 \format{
@@ -18,6 +18,7 @@ It is discussed in Exercise 6.5.6 of Kloke and McKean (2014).
 }
 \references{
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistical methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistical methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 }
 \examples{
 rfit(y ~ x,data=rs)

@@ -5,7 +5,7 @@
 Returns the test based on placements for the Behrens-Fisher problem.
 This test was developed by Fligner and Policello (1981); see, also, Section 2.11
 of Hettmansperger and McKean (2011) and Section 4.4 of Hollander and Wolfe (1999).
-The version computed by fp.test is discussed in Section 4.4 of Kloke and McKean (2014).
+The version computed by fp.test is discussed in Section 3.4 of Kloke and McKean (2014)/Section 3.6 of Kloke and McKean (2024).
 }
 \usage{
 fp.test(x,y,delta0=0,alternative = "two.sided")
@@ -35,6 +35,7 @@ Hollander, M. and Wolfe, D.~A. (1999), \emph{Nonparametric statistical methods, 
 New York: John Wiley and Sons.
 
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 
 
 }

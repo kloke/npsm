@@ -270,7 +270,7 @@ kancova = function(levs,data,xcov,print.table=TRUE) {
          cat("Robust ANCOVA Table","\n")
          cat("All tests except last row is with homogeneous slopes","\n")
          cat("as the full model.   For the last row the full model is","\n")
-         cat("with heterscedastic slopes.","\n")
+         cat("with heteroscedastic slopes.","\n")
          print(tab2)
          cat("\n")
       }

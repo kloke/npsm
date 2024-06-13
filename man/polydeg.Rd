@@ -4,7 +4,7 @@
 \description{
 Tests for the degree of a polnomial.
 This test was suggested by Graybill (1976) and is discussed from a robust
-point-of-view in Section 4.7.1. of Kloke and McKean (2014).
+point-of-view in Section 4.7.1. of Kloke and McKean (2014)/4.6.1 of Kloke and McKean (2024).
 }
 \usage{
 polydeg(y, x, P, alpha = 0.05) 
@@ -28,6 +28,7 @@ Graybill, F.A. (1976), \emph{Theory and application of the linear model},
 North Scituate, Ma: Duxbury Press.
 
 Kloke, J. and McKean, J.W. (2014), \emph{Nonparametric statistcal methods using R}, Boca Raton, FL: Chapman-Hall.
+Kloke, J. and McKean, J.W. (2024), \emph{Nonparametric statistcal methods using R, Second Edition}, Boca Raton, FL: Chapman-Hall.
 
 }
 \examples{
