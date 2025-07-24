@@ -3,7 +3,7 @@ Accompanies the book
 by 
 [Kloke](https://github.com/kloke)
 and 
-[McKean](http://www.stat.wmich.edu/~mckean/).
+McKean.
 Includes methods, datasets, and random number generation useful for the study of robust and/or nonparametric statistics.
 
 ### Installation ###

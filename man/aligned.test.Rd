@@ -32,7 +32,7 @@ Hettmansperger, T.P. and McKean J.W. (2011), \emph{Robust Nonparametric Statisti
 \author{John Kloke}
 
 \seealso{
-\code{\link{rfit}}
+\code{\link[Rfit]{rfit}}
 }
 
 

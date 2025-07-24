@@ -40,7 +40,7 @@ John Kloke
 }
 
 \seealso{
-\code{\link{knn}}
+\code{\link[class]{knn}}
 }
 \examples{
 train_set <- sim_class2[sim_class2$train==1,-1]

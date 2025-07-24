@@ -1,8 +1,8 @@
 Package: npsm
 Type: Package
 Title: Nonparametric Statistical Methods
-Version: 2.0.0
-Date: 2024-05-25
+Version: 2.0.1
+Date: 2025-07-23
 Authors@R: c(person("John", "Kloke",role=c("aut","cre"), email="johndkloke@gmail.com"), person("Joseph", "McKean", role=c("aut")))
 Author: John Kloke [aut, cre], Joseph McKean [aut]
 Maintainer: John Kloke <johndkloke@gmail.com>
